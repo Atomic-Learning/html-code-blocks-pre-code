@@ -1,22 +1,18 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "HTML Code Blocks with <pre> and <code>",
+    "slug": "html-code-blocks-pre-code",
+    "description": "An introduction of how <pre> and <code> tags can be combined to produce code blocks in a page of HTML.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "html"
     ],
-    "duration": 0,
+    "duration": 3,
     "prerequisites": [
-        "",
-        ""
+        "html-pre-tag",
+        "html-code-tag"
     ],
     "related": [
-        "",
-        ""
     ]
 }

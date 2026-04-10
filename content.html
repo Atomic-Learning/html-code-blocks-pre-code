@@ -1,1 +1,26 @@
+<p>Sometimes when presenting code, it is useful to show multiple lines of code in a way that preserves whitespace and line breaks. A common approach is to use both the <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags together. Consider the following example Python code:</p>
 
+<pre><code>def hello_world():
+    print("Hello, World!")</code></pre>
+
+<p> This was created using the HTML code:</p>
+
+<pre><code class="language-html">&lt;pre&gt;&lt;code&gt;def hello_world():
+    print("Hello, World!")&lt;/code&gt;&lt;/pre&gt;</code></pre>
+
+<p>When these two tags are used together, the <code>&lt;pre&gt;</code> tag:</p>
+
+<ul>
+    <li>Preserves whitespace (including the indentation),</li>
+    <li>Preserves line breaks,</li>
+    <li>Is typically rendered in a monospace font by browser default styles (preserving the visual structure of the code)</li>
+</ul>
+
+<p>While the <code>&lt;code&gt;</code> tag:</p>
+
+<ul>
+    <li>Indicates that the content is code</li>
+    <li>Can be styled differently to distinguish it from regular text</li>
+</ul>
+
+<p>Either tag can be styled with CSS. JavaScript can also be used to apply or toggle CSS classes and styles. In the Atomic Learning platform, for example, the background color applied to the <code>&lt;pre&gt;</code> tag is a platform style used to emphasise the code block.</p>
